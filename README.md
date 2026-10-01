@@ -24,11 +24,7 @@
   <img src="https://img.shields.io/badge/Status-Desenvolvimento-yellow?style=for-the-badge" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Plataforma-Windows%20%7C%20Linux%20%7C%20Qt6-0066CC?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" />
-</p>
+
 ---
 
 ## ✨ Apresentação
