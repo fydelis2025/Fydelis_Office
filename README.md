@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fydelis2025/Fydelis_Office/main/assets/logo.png" 
+  <img src="https://raw.githubusercontent.com/fydelis2025/Fydelis_Office/main/assets/logo_menu.png" 
        alt="FydelisOffice" width="180" style="border-radius: 12px;" />
 </p>
 
@@ -24,6 +24,11 @@
   <img src="https://img.shields.io/badge/Status-Desenvolvimento-yellow?style=for-the-badge" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Plataforma-Windows%20%7C%20Linux%20%7C%20Qt6-0066CC?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge" />
+</p>
 ---
 
 ## ✨ Apresentação
