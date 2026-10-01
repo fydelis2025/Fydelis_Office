@@ -1,0 +1,86 @@
+<RCC>
+    <qresource prefix="/fydelis">
+        <!-- Estilos -->
+        <file>compartilhado/estilos.qss</file>
+        
+        <!-- Ícones Principais das Aplicações -->
+        <file alias="icon_writer.ico">resources/icon_writer.ico</file>
+		<file alias="icon_writer.png">resources/icon_writer.png</file>
+		
+        <file alias="icon_calc.ico">resources/icon_calc.ico</file>
+		<file alias="icon_calc.png">resources/icon_calc.png</file>
+		
+		<file alias="icon_slide.ico">resources/icon_slide.ico</file>
+        <file alias="icon_slide.png">resources/icon_slide.png</file>      
+	
+		<!-- Ícones da Barra de Ferramentas — FYDELIS_WRITER -->
+		<file alias="writer/copiar.png">resources/icones/writer/copiar.png</file>
+		<file alias="writer/colar.png">resources/icones/writer/colar.png</file>
+		<file alias="writer/cortar.png">resources/icones/writer/cortar.png</file>
+		<file alias="writer/novo.png">resources/icones/writer/novo.png</file>
+		<file alias="writer/abrir.png">resources/icones/writer/abrir.png</file>
+		<file alias="writer/salvar.png">resources/icones/writer/salvar.png</file>
+		<file alias="writer/negrito.png">resources/icones/writer/negrito.png</file>
+		<file alias="writer/italico.png">resources/icones/writer/italico.png</file>
+		<file alias="writer/sublinhado.png">resources/icones/writer/sublinhado.png</file>
+		<file alias="writer/desfazer.png">resources/icones/writer/desfazer.png</file>
+		<file alias="writer/refazer.png">resources/icones/writer/refazer.png</file>		
+		<file alias="writer/excluir.png">resources/icones/writer/excluir.png</file>
+		<file alias="writer/inserir.png">resources/icones/writer/inserir.png</file>
+		<file alias="writer/limpar.png">resources/icones/writer/limpar.png</file>
+		<file alias="writer/sobre.png">resources/icones/writer/sobre.png</file>
+		<file alias="writer/aumentar.png">resources/icones/writer/aumentar.png</file>
+		<file alias="writer/centro.png">resources/icones/writer/centro.png</file>
+		<file alias="writer/cor_fundo.png">resources/icones/writer/cor_fundo.png</file>
+		<file alias="writer/cor_texto.png">resources/icones/writer/cor_texto.png</file>
+		<file alias="writer/diminuir.png">resources/icones/writer/diminuir.png</file>
+		<file alias="writer/direita.png">resources/icones/writer/direita.png</file>
+		<file alias="writer/esquerda.png">resources/icones/writer/esquerda.png</file>
+		<file alias="writer/imagem.png">resources/icones/writer/imagem.png</file>
+		<file alias="writer/link.png">resources/icones/writer/link.png</file>
+		<file alias="writer/tabela.png">resources/icones/writer/tabela.png</file>
+		
+		<!-- Ícones da Barra de Ferramentas — FYDELIS_CALC -->
+		<file alias="calc/copiar.png">resources/icones/calc/copiar.png</file>
+		<file alias="calc/colar.png">resources/icones/calc/colar.png</file>
+		<file alias="calc/cortar.png">resources/icones/calc/cortar.png</file>
+		<file alias="calc/novo.png">resources/icones/calc/novo.png</file>
+		<file alias="calc/abrir.png">resources/icones/calc/abrir.png</file>		
+		<file alias="calc/negrito.png">resources/icones/calc/negrito.png</file>
+		<file alias="calc/italico.png">resources/icones/calc/italico.png</file>
+		<file alias="calc/sublinhado.png">resources/icones/calc/sublinhado.png</file>
+		<file alias="calc/desfazer.png">resources/icones/calc/desfazer.png</file>
+		<file alias="calc/refazer.png">resources/icones/calc/refazer.png</file>
+		<file alias="calc/excluir.png">resources/icones/calc/excluir.png</file>		
+		<file alias="calc/aumentar.png">resources/icones/calc/aumentar.png</file>		
+		<file alias="calc/celulas.png">resources/icones/calc/celulas.png</file>		
+		<file alias="calc/centro.png">resources/icones/calc/centro.png</file>		
+		<file alias="calc/cor_fundo.png">resources/icones/calc/cor_fundo.png</file>		
+		<file alias="calc/cor_texto.png">resources/icones/calc/cor_texto.png</file>		
+		<file alias="calc/diminuir.png">resources/icones/calc/diminuir.png</file>		
+		<file alias="calc/direita.png">resources/icones/calc/direita.png</file>		
+		<file alias="calc/esquerda.png">resources/icones/calc/esquerda.png</file>		
+		<file alias="calc/filtrar.png">resources/icones/calc/filtrar.png</file>		
+		<file alias="calc/formula.png">resources/icones/calc/formula.png</file>		
+		<file alias="calc/funcao.png">resources/icones/calc/funcao.png</file>
+		<file alias="calc/grafico.png">resources/icones/calc/grafico.png</file>
+		<file alias="calc/imagem.png">resources/icones/calc/imagem.png</file>
+		<file alias="calc/inserir.png">resources/icones/calc/inserir.png</file>
+		<file alias="calc/limpar.png">resources/icones/calc/limpar.png</file>
+		<file alias="calc/link.png">resources/icones/calc/link.png</file>
+		<file alias="calc/media.png">resources/icones/calc/media.png</file>
+		<file alias="calc/ordenar.png">resources/icones/calc/ordenar.png</file>
+		<file alias="calc/salvar_planilha.png">resources/icones/calc/salvar_planilha.png</file>
+		<file alias="calc/soma.png">resources/icones/calc/soma.png</file>
+		<file alias="calc/tabela.png">resources/icones/calc/tabela.png</file>
+		<file alias="calc/sobre.png">resources/icones/calc/sobre.png</file>
+		
+		<!-- Ícones da Barra de Ferramentas — FYDELIS_SLIDE -->
+        
+        <!-- Logotipo -->
+        <file alias="logo.png">resources/logo_menu.png</file>
+        
+        <!-- Versão -->
+        <file alias="versao.txt">resources/versao.txt</file>
+    </qresource>
+</RCC>

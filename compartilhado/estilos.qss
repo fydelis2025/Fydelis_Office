@@ -1,0 +1,168 @@
+/* ==========================================
+   ESTILO GLOBAL — FydelisOffice
+   Tema Oficial FydelisTech · v2.2
+   Barra Azul · Ribbon · Branco/Claro
+   ========================================== */
+
+/* Janela Principal */
+QMainWindow {
+    background-color: #FFFFFF;
+}
+
+/* Conteúdo Interno */
+QWidget#janelaConteudo {
+    background: #FFFFFF;
+    border: 3px solid #0066CC;
+    border-radius: 8px;
+}
+
+/* Barra de Título Personalizada */
+QWidget#barraTitulo {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #0066CC, stop:1 #005A9E);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    min-height: 50px;
+}
+QWidget#barraTitulo QLabel {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+QWidget#barraTitulo QPushButton {
+    background: transparent;
+    color: #FFFFFF;
+    border: none;
+    width: 46px;
+    height: 46px;
+    font-size: 16px;
+}
+QWidget#barraTitulo QPushButton:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+QWidget#barraTitulo QPushButton#btnFechar:hover {
+    background: #E53935;
+}
+
+/* Menu */
+QMenuBar {
+    background: #F9F9F9;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 2px;
+}
+QMenuBar::item {
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+QMenuBar::item:selected {
+    background: #E6F0FA;
+    color: #0066CC;
+}
+QMenu {
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+}
+QMenu::item {
+    padding: 6px 24px;
+}
+QMenu::item:selected {
+    background: #E6F0FA;
+    color: #0066CC;
+}
+
+/* Ribbon */
+QTabWidget#RibbonTab::pane {
+    background: #F3F3F3;
+    border: none;
+    border-top: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+}
+QTabBar::tab {
+    background: #EDEDED;
+    padding: 8px 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-right: 2px;
+}
+QTabBar::tab:selected {
+    background: #FFFFFF;
+    border-bottom: 2px solid #0066CC;
+}
+
+/* Barra de Status */
+QStatusBar, QWidget#barraStatus {
+    background: #F9F9F9;
+    border-top: 1px solid #E0E0E0;
+    color: #666666;
+    font-size: 11px;
+}
+
+/* Editor de Texto */
+QTextEdit {
+    background: #FFFFFF;
+    color: #1A1A1A;
+    border: none;
+    padding: 20px 30px;
+    font-family: Calibri, 'Segoe UI', Arial;
+    font-size: 12pt;
+}
+
+/* Planilha */
+QTableWidget {
+    background: #FFFFFF;
+    color: #1A1A1A;
+    border: none;
+    gridline-color: #E0E0E0;
+}
+QTableWidget::item:selected {
+    background: #E6F0FA;
+    color: #0066CC;
+}
+QHeaderView::section {
+    background: #F3F3F3;
+    color: #1A1A1A;
+    padding: 6px;
+    border: none;
+    border-right: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    font-weight: 600;
+}
+
+/* Botões e Ferramentas */
+QToolButton {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 6px 10px;
+    color: #1A1A1A;
+}
+QToolButton:hover {
+    background: #E6F0FA;
+    border-color: #0066CC;
+}
+QPushButton {
+    background: #0066CC;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 20px;
+    min-width: 80px;
+}
+QPushButton:hover {
+    background: #005A9E;
+}
+QPushButton:pressed {
+    background: #004C99;
+}
+
+/* Caixas de Entrada */
+QLineEdit, QSpinBox, QComboBox {
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    border-radius: 4px;
+    padding: 6px;
+    color: #1A1A1A;
+}
+QLineEdit:focus, QSpinBox:focus, QComboBox:focus {
+    border-color: #0066CC;
+}
