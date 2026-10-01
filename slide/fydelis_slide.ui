@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FydelisSlide</class>
+ <widget class="QMainWindow" name="FydelisSlide">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FydelisSlide — Apresentações</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QListWidget" name="listaSlides">
+      <property name="maximumSize">
+       <size>
+        <width>180</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>120</width>
+        <height>90</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="areaSlide">
+      <property name="styleSheet">
+       <string notr="true">background-color: #ffffff;</string>
+      </property>
+      <layout class="QVBoxLayout" name="layoutSlide">
+       <item>
+        <widget class="QLabel" name="tituloSlide">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>24</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Título do Slide</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="conteudoSlide">
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Conteúdo do slide...</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <addaction name="acaoNovo"/>
+    <addaction name="acaoAbrir"/>
+    <addaction name="acaoSalvar"/>
+    <addaction name="separator"/>
+    <addaction name="acaoApresentacao"/>
+    <addaction name="separator"/>
+    <addaction name="acaoSair"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="acaoNovo">
+   <property name="text">
+    <string>Nova Apresentação</string>
+   </property>
+  </action>
+  <action name="acaoAbrir">
+   <property name="text">
+    <string>Abrir...</string>
+   </property>
+  </action>
+  <action name="acaoSalvar">
+   <property name="text">
+    <string>Salvar</string>
+   </property>
+  </action>
+  <action name="acaoApresentacao">
+   <property name="text">
+    <string>Exibir Apresentação</string>
+   </property>
+  </action>
+  <action name="acaoSair">
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

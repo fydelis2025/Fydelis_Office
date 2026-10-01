@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FydelisWriter</class>
+ <widget class="QMainWindow" name="FydelisWriter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FydelisWriter — Editor de Texto</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="editorTexto">
+      <property name="placeholderText">
+       <string>Digite seu texto aqui...</string>
+      </property>
+      <property name="font">
+       <font>
+        <family>Consolas</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <addaction name="acaoNovo"/>
+    <addaction name="acaoAbrir"/>
+    <addaction name="acaoSalvar"/>
+    <addaction name="acaoSalvarComo"/>
+    <separator/>
+    <addaction name="acaoSair"/>
+   </widget>
+   <widget class="QMenu" name="menuEditar">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+    <addaction name="acaoDesfazer"/>
+    <addaction name="acaoRefazer"/>
+    <separator/>
+    <addaction name="acaoCopiar"/>
+    <addaction name="acaoColar"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuEditar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="acaoNovo">
+   <property name="text">
+    <string>Novo</string>
+   </property>
+  </action>
+  <action name="acaoAbrir">
+   <property name="text">
+    <string>Abrir...</string>
+   </property>
+  </action>
+  <action name="acaoSalvar">
+   <property name="text">
+    <string>Salvar</string>
+   </property>
+  </action>
+  <action name="acaoSalvarComo">
+   <property name="text">
+    <string>Salvar Como...</string>
+   </property>
+  </action>
+  <action name="acaoSair">
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+  <action name="acaoDesfazer">
+   <property name="text">
+    <string>Desfazer</string>
+   </property>
+  </action>
+  <action name="acaoRefazer">
+   <property name="text">
+    <string>Refazer</string>
+   </property>
+  </action>
+  <action name="acaoCopiar">
+   <property name="text">
+    <string>Copiar</string>
+   </property>
+  </action>
+  <action name="acaoColar">
+   <property name="text">
+    <string>Colar</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
