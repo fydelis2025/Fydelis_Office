@@ -31,6 +31,7 @@
 <p align="center">
   <img src="https://github.com/fydelis2025/Fydelis_Office/blob/main/FydelisWriter.png" alt="FydelisTechOS Dashboard" width="100%">
    <img src="https://github.com/fydelis2025/Fydelis_Office/blob/main/FydelisCalc.png" alt="FydelisTechOS Dashboard" width="100%">
+   <img src="https://github.com/fydelis2025/Fydelis_Office/blob/main/FydelisSlide.png" alt="FydelisTechOS Dashboard" width="100%">
 </p>
 
 ---
