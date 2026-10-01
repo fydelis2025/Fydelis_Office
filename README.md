@@ -35,6 +35,15 @@ O **FydelisOffice** é uma suíte de aplicativos de escritório **construída do
 
 ---
 
+<p align="center">
+ <img src="https://raw.githubusercontent.com/fydelis2025/Fydelis_Office/main/FydelisWriter.png" 
+       alt="FydelisOffice" width="180" style="border-radius: 12px;" />
+  <img src="https://raw.githubusercontent.com/fydelis2025/Fydelis_Office/main/FydelisCalc.png" 
+       alt="FydelisOffice" width="180" style="border-radius: 12px;" />
+  <img src="https://raw.githubusercontent.com/fydelis2025/Fydelis_Office/main/FydelisSlide.png" 
+       alt="FydelisOffice" width="180" style="border-radius: 12px;" />
+</p>
+
 ## 📦 Componentes
 
 | Aplicativo | Descrição | Tema | Status |
