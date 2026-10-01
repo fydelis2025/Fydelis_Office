@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fydelis2025/Fydelis_Office/main/assets/logo_menu.png" 
+  <img src="https://raw.githubusercontent.com/fydelis2025/Fydelis_Office/main/resources/logo_menu.png" 
        alt="FydelisOffice" width="180" style="border-radius: 12px;" />
 </p>
 
